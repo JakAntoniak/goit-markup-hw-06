@@ -17,8 +17,50 @@
       <div class="modal-backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="modal-close-btn" data-modal-close>
-            X
+            <svg class="form-icon" width="11" height="11">
+              <use href="./images/icons.svg#icon-form-close"></use>
+            </svg>
           </button>
+          <h3 class="form-header">Zostaw swoje dane w formularzu poniżej</h3>
+          <form class="modal-form">
+            <label
+              >Imię <input type="text" name="imie" /><svg
+                class="form-icon"
+                width="12"
+                height="12"
+              >
+                <use href="./images/icons.svg#icon-form-name"></use>
+              </svg>
+            </label>
+            <label
+              >Telefon <input type="tel" name="telephone" /><svg
+                class="form-icon"
+                width="12"
+                height="12"
+              >
+                <use href="./images/icons.svg#icon-form-tel"></use>
+              </svg>
+            </label>
+            <label
+              >Email <input type="email" name="email" /><svg
+                class="form-icon"
+                width="12"
+                height="12"
+              >
+                <use href="./images/icons.svg#icon-form-email"></use>
+              </svg>
+            </label>
+            <label
+              >Komentarz
+              <textarea placeholder="Wprowadź tekst"></textarea>
+            </label>
+          </form>
+          <div class="modal-checkbox">
+            <input type="checkbox" />Oświadczam iż akceptuję
+            <a class="link-color" href="">Regulamin</a> i
+            <a class="link-color" href="">Politykę Prywatności.</a>
+          </div>
+          <button class="modal-button" type="submit">Wyślij</button>
         </div>
       </div>
       <div class="header-border">
@@ -491,19 +533,22 @@
             </div>
           </div>
           <div class="footer-newsletter">
-<form class="newsletter">
-  <label class="newsletter-label">Zapisz się do newslettera</label>
-  <input type="email" placeholder="E-mail"  name="email"></input>
-  <button class="newsletter-button" type="submit">Zapisz się
-    <svg class="newsletter-button-icon">
-      <use
-        href="./images/icons.svg#icon-send"
-        width="24"
-        height="24"
-      ></use>
-    </svg>
-  </button>
-</form>
+            <form class="newsletter">
+              <label>
+                <p>Zapisz się do newslettera</p>
+                <input type="email" placeholder="E-mail" name="email"
+              /></label>
+              <button class="newsletter-button" type="submit">
+                Zapisz się
+                <svg class="newsletter-button-icon">
+                  <use
+                    href="./images/icons.svg#icon-send"
+                    width="24"
+                    height="24"
+                  ></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </footer>
       </div>
