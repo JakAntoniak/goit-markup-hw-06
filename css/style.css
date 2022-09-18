@@ -434,6 +434,7 @@ a:focus,
 }
 .footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-contacts {
@@ -544,6 +545,7 @@ a:focus,
   margin-right: 10px;
   outline: none;
   height: 50px;
+  padding-left: 16px;
 }
 
 .newsletter-button {
