@@ -143,7 +143,7 @@ form {
   transition-duration: 250ms;
 }
 
-.test:focus-within svg {
+.modal-form > label:focus-within svg {
   fill: #2196f3;
 }
 
