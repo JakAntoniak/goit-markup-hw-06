@@ -141,6 +141,8 @@ form {
   outline: none;
   border-color: #2196f3;
   fill: #2196f3;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .modal-checkbox {
@@ -246,6 +248,8 @@ a:focus,
 .header-icon:hover {
   color: #2196f3;
   fill: #2196f3;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .welcome-section-background {
@@ -616,6 +620,8 @@ a:focus,
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .wszystkie-menu-images {
@@ -665,6 +671,8 @@ a:focus,
 .image-border:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .image-footer {
