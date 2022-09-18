@@ -136,13 +136,14 @@ form {
 }
 
 .modal-form input:focus,
-.modal-form textarea:focus,
-.form-icon:focus {
+.modal-form textarea:focus {
   outline: none;
   border-color: #2196f3;
-  fill: #2196f3;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+}
+.modal-form:focus > .form-icon {
+  fill: #2196f3;
 }
 
 .modal-checkbox {
