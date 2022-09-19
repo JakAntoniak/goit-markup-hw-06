@@ -56,39 +56,28 @@
             </label>
           </form>
           <!--  -->
-          <label class="terms-and-conditions">
-            <input type="checkbox" />
-            <svg class="tick">
-              <use
-                xlink:href="./images/icons.svg#icon-checkbox"
-                width="11"
-                height="8"
-              ></use>
-            </svg>
-            <span class="checkmark"></span> Oświadczam iż akceptuję
-            <a href="#" class="blue-text">Regulamin</a> i
-            <a href="#" class="blue-text">Politykę Prywatności.</a>
-          </label>
-
-          <!-- <div class="modal-checkbox">
-            <input class="modal-checkbox-input" type="checkbox" />
-            <label class="checkbox">
-              <span
-                ><svg class="checkbox-icon" width="16" height="15">
-                  <use
-                    href="./images/icons.svg#icon-checkbox"
-                    width="11"
-                    height="8"
-                  ></use>
+          <svg class="checkbox-symbol">
+            <symbol id="icon-checkbox" viewBox="0 0 42 32">
+              <path
+                stroke-linejoin="miter"
+                stroke-linecap="butt"
+                stroke-miterlimit="4"
+                stroke-width="0.64"
+                d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"
+              ></path>
+            </symbol>
+          </svg>
+          <div class="checkbox-container">
+            <input class="checkbox-input" id="apples" type="checkbox" />
+            <label class="checkbox" for="apples">
+              <span>
+                <svg width="12px" height="10px">
+                  <use xlink:href="#icon-checkbox"></use>
                 </svg>
               </span>
-              <span
-                >Oświadczam iż akceptuję
-                <a class="link-color" href="">Regulamin</a> i
-                <a class="link-color" href="">Politykę Prywatności.</a></span
-              >
+              <span>Apples</span>
             </label>
-          </div> -->
+          </div>
           <button class="modal-button" type="submit">Wyślij</button>
         </div>
       </div>
