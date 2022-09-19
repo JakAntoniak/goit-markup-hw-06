@@ -162,6 +162,7 @@ form {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .link-color {
@@ -656,6 +657,7 @@ a:focus,
   border: none;
   padding: 10px 0 10px 42px;
   margin-top: 36px;
+  cursor: pointer;
 }
 
 .newsletter-button-icon {
