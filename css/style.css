@@ -172,13 +172,13 @@ form {
 
 /* Custom checkbox */
 
-.checkbox-symbol {
+/* .checkbox-symbol {
   position: absolute;
   width: 0;
   height: 0;
   pointer-events: none;
   user-select: none;
-}
+} */
 
 .checkbox-container {
   box-sizing: border-box;
