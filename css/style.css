@@ -172,7 +172,7 @@ form {
 
 /* Custom checkbox */
 
-.checkbox-icon {
+.checkbox-symbol {
   position: absolute;
   width: 0;
   height: 0;
@@ -180,7 +180,7 @@ form {
   user-select: none;
 }
 
-.modal-checkbox {
+.checkbox-container {
   box-sizing: border-box;
   background: #ffffff;
   color: #222;
@@ -191,11 +191,11 @@ form {
   flex-flow: row wrap;
 }
 
-.modal-checkbox * {
+.checkbox-container * {
   box-sizing: border-box;
 }
 
-.modal-checkbox-input {
+.checkbox-input {
   position: absolute;
   visibility: hidden;
 }
